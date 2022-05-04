@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__first-col {
+    background: red;
+}
+
+.header__middle-col {
+    background: blue;
+}
+
+.header__last-col {
+    background: green;
+}
