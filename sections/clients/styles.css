@@ -5,6 +5,16 @@
 body {
   margin: 0;
   background: #f0f0f0;
+  font-family: "Inter", "Dancing Script";
+
+  /*font-style: normal;*/
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+
+  letter-spacing: -0.015em;
+
+  color: #000000;
 }
 
 .trusted-clients__text {
@@ -17,52 +27,45 @@ body {
 .clients__heading {
   /*only heading text inside trusted-clients_text div*/
 
-  /*position: absolute;
+  /*
   width: 218px;
   height: 39px;*/
-
+  font-style: normal;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /*width: 40px;*/
-
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 150%;
-
-  letter-spacing: -0.015em;
-
-  color: #000000;
 }
 
 .clients__body {
-  /*position: absolute;
+  /*
 width: 96px;
 height: 18px;*/
 
-  display: flex;
+  max-width: 20rem;
+  text-align: center;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-
-  letter-spacing: -0.01em;
-
-  color: #000000;
 }
 
 .clients__images {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 
-    align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients_images {
+
+    max-width: 8rem;
+    padding: 1rem;
+
+}
+
+@media (min-width: 40rem){
+    .clients__images{
+        flex-direction: row;
+    }
 }
