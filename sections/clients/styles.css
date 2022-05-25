@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f0f0f0;
+  font-family: "Inter", "Dancing Script";
+
+  /*font-style: normal;*/
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+
+  letter-spacing: -0.015em;
+
+  color: #000000;
+}
+
+.trusted-clients__text {
+  /*div for all the text in this section*/
+
+  display: flex;
+  width: 25rem;
+}
+
+.clients__heading {
+  /*only heading text inside trusted-clients_text div*/
+
+  /*
+  width: 218px;
+  height: 39px;*/
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients__body {
+  /*
+width: 96px;
+height: 18px;*/
+
+  max-width: 20rem;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients__images {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.clients_images {
+
+    max-width: 8rem;
+    padding: 1rem;
+
+}
+
+@media (min-width: 40rem){
+    .clients__images{
+        flex-direction: row;
+    }
+}
