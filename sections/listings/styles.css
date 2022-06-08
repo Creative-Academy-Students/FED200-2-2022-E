@@ -1,37 +1,104 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0;
-    background: #f0f0f0;
-    /* font-family: sans-serif; */
-    font-family: sans-serif, 'Dancing Script', cursive;
-  
-    /*font-style: normal;*/
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-  
-    letter-spacing: -0.015em;
-  
-    color: #000000;
-  }
-  
-  .listings-full{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row-reverse;
-  }
+body {
+  margin: 0;
+  background: #f0f0f0;
+  /* font-family: sans-serif; */
+  font-family: 'Inter';
 
-  .listings-image{
-      display: flex;
-      max-width: 30rem;
-      width: 15rem;
-  }
+  /*font-style: normal;*/
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
 
-  .listings-text__tag{
-      color: #DEBE8B;
+  letter-spacing: -0.015em;
+
+  color: #000000;
+}
+
+.listings-full {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 2rem 0rem;
+}
+
+.listings-image {
+  display: flex;
+  max-width: 30rem;
+  width: 28rem;
+padding: 0.5rem 5rem 0rem 0rem;
+  /* width: 455px;
+height: 333px; */
+}
+
+.listings-text{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.listings-text__tag {
+  /* color: #DEBE8B;
       font-size: 0.6rem;
-      font-weight: 150;
+      font-weight: 150; */
+
+  width: 92px;
+  height: 13px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+
+  color: #dfbc84;
+
+  padding: 0rem 0rem -1rem 0rem;
+}
+.listings-text__heading {
+  width: 331px;
+  height: 64px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  /* or 128% */
+
+  letter-spacing: 0.01em;
+
+  padding: 0rem 0rem 1.5rem 0rem;
+}
+
+.listings-text__paragraph{
+    width: 314px;
+    height: 57px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 158% */
+    
+    letter-spacing: 0.015em;
+    
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+@media (max-width: 70rem) {
+    .listings-full {
+        justify-content: center;
+        /* flex-direction: row-reverse; */
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
