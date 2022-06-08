@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: #f0f0f0;
+    /* font-family: sans-serif; */
+    font-family: sans-serif, 'Dancing Script', cursive;
+  
+    /*font-style: normal;*/
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+  
+    letter-spacing: -0.015em;
+  
+    color: #000000;
+  }
+  
+  .listings-full{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+  }
+
+  .listings-image{
+      display: flex;
+      max-width: 30rem;
+      width: 15rem;
+  }
+
+  .listings-text__tag{
+      color: #DEBE8B;
+      font-size: 0.6rem;
+      font-weight: 150;
+  }
