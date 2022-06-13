@@ -3,18 +3,32 @@
 }
 
 body {
-  font-size: 8px;
-  text-align: center;
+  margin: 0;
+  background: #fff;
   color: #808080;
   /* font-family: sans-serif; */
   font-family: sans-serif, "Dancing Script", cursive;
 }
 
 .testimonial-main-container {
-  background-color: lightblue;
-  width: 300px;
-  border: none;
-  border-radius: 10px;
-  padding: 50px;
-  margin: 20px;
+    margin: 1rem;
+    background: #E5F4FB;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    /* border: #fff; */
+    /* border-width: 1rem; */
+    border-radius: 2rem;
+  }
+
+.testamonial-text {
+  text-align: center;
+  color: #808080
+  width: 30rem;
+  max-width: 30rem;
+  margin: 0;
+  font-weight: 200;
+  padding: 0rem 0rem;
 }
+
