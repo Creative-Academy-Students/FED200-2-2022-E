@@ -4,3 +4,14 @@
     color: grey;
 }
 
+<style>
+div {
+  background-color: lightblue;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+
