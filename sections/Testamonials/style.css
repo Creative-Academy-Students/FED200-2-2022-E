@@ -1,16 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  background: #fff;
-  color: #808080;
-  /* font-family: sans-serif; */
-  font-family: sans-serif, "Dancing Script", cursive;
-}
-
-.testimonial-main-container {
+.testamonial-main-container {
     margin: 1rem;
     background: #E5F4FB;
     display: flex;
@@ -24,11 +13,12 @@ body {
 
 .testamonial-text {
   text-align: center;
-  color: #808080
+  color: #808080;
   width: 30rem;
   max-width: 30rem;
   margin: 0;
   font-weight: 200;
   padding: 0rem 0rem;
 }
+
 
